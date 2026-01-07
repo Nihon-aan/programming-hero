@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <style>
+        nav{
+            background-color:rgb(17, 17, 57);
+            color:lightgray;
+            text-align:center;
+            padding: 2px 0px;
+            margin-bottom:20px;
+        }
+
+        legend{
+            font-weight: bold;
+        }
+
+        #name, #email{
+            display:block;
+            margin-bottom:10px;
+        }
+
+        span{
+            display:block;
+        }
+
+        .a{
+            background-color: aliceblue;
+        }
+        .s{
+            background-color: lightcyan;
+
+        }
+        .d{
+            background-color: lightgray;
+
+        }
+
+        .f{
+            background-color: lightskyblue;
+            margin-bottom:10px;
+        }
+
+        form{
+            margin-bottom:15px;
+        }
+
+        footer{
+            background-color:rgb(17, 17, 57) ;
+            color:lightgray;
+            text-align:center;
+
+        }
+
+        
+
+    </style>
+
+         <link rel="stylesheet" href="nav.css">
+
+</head>
+<body>
+
+<header>
+        <nav>
+            <ul>
+                <li><a href="flex.html">Flex</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="module4.html">Module 4</a></li>
+                <li><a href="proper.html">proper</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<main>
+
+    <form action="">
+        <fieldset class="a">
+            <legend>Basic Info</legend>
+           
+            <label for="name">Your Name</label>
+            <input type="text" name="" id="name">
+           
+            <label for="email">Your Email</label>
+            <input type="email" name="" id="email">
+        </fieldset>
+
+        <fieldset class="s">
+            <legend>Pitha Info</legend>
+            <span>
+            <input type="radio" name="pitha" id="vapa">
+            <label for="vapa">Vapa</label>
+                </span>
+                <span>
+            <input type="radio" name="pitha" id="chitoy">
+            <label for="chitoy">Chitoy</label>
+                </span>
+                <span>
+            <input type="radio" name="pitha" id="patisapta">
+            <label for="patisapta">Patisapta</label>
+                </span>
+            <span>
+            <input type="radio" name="pitha" id="dim">
+            <label for="dim">Dimer Pitha</label>
+             </span>
+                
+        </fieldset>
+
+        <fieldset class="d">
+            <legend>Add Ons</legend>
+           
+                <span>
+            <input type="checkbox" name="" id="sorisha">
+            <label for="sorisha">Sorisha Vorta</label>
+                </span>
+                <span>
+            <input type="checkbox" name="" id="shutki">
+            <label for="shutki">Shutki Vorta</label>
+                     </span>
+                <span>
+            <input type="checkbox" name="" id="morich">
+            <label for="morich">Morich Vorta</label>
+                     </span>
+                <span>
+            <input type="checkbox" name="" id="mach">
+            <label for="mach">Macher Vorta</label>
+                     </span>
+                <span>
+            <input type="checkbox" name="" id="kalozira">
+            <label for="kalozira">Kalojeera Vorta</label>
+                     </span>
+                <span>
+            <input type="checkbox" name="" id="narikel">
+            <label for="narikel">Narikel</label>
+            </span>
+        </fieldset>
+
+
+        <fieldset class="f">
+            <legend>
+                Extra Info
+            </legend>
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">
+
+
+
+    </form>
+
+</main>
+
+
+
+
+<footer>
+    <small>&copy;All Rights Reserved</small>
+</footer>
+    
+</body>
+</html>

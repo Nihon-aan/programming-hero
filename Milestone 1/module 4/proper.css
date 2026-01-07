@@ -1,0 +1,43 @@
+header nav ul li a{
+    text-decoration: none;
+    color:black
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    font-weight: bold;
+    font-size: 30px;
+     padding: 10px 5px;
+    
+}
+
+nav{
+    background-color: bisque;
+    text-align: center;
+   
+}
+
+nav ul li:hover{
+    background-color:beige;
+    transition-duration: 0.5s;
+}
+
+nav ul{
+     padding: 10px 5px;
+}
+
+img{
+    width:300px;
+}
+
+.a{
+    text-align: center;
+    margin-top:200px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+}

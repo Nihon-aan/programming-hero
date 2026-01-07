@@ -1,0 +1,70 @@
+.a{
+    background-color: blueviolet;
+}
+
+.s{
+    color:rgb(143, 167, 190);
+    text-align: center;
+    background-color: rgb(127, 123, 116);
+}
+
+.d{
+    font-size: 15px;
+    font-weight:700;
+    font-family: arial;
+    font-style:initial;
+}
+
+.f{
+    font-weight: 800;
+    display:inline;
+}
+div{
+    margin: 100px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.g{
+    background-image: url(pngtree-stunning-red-and-blue-smoke-images-for-download-image_16191211.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 200px;
+    color:white;
+    text-align:center;
+    font-size:50px;
+    font-weight: bold;
+    padding-top:120px;
+    background-position: left top;
+}
+
+.h{
+    background-color: beige;
+    border: 2px dotted black;
+    border-radius:10px;
+    padding:10px;
+    box-shadow: 5px 8px 9px rgba(0, 0, 0, 0.5);
+}
+
+.j{
+    background-color: rgb(29, 169, 29);
+    padding: 10px 15px;
+    font-weight:bold;
+    color:white;
+    border-style:none;
+    border-radius:8px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.6);
+    display: inline;
+}
+
+ dd{
+    display: inline;
+    display: none;
+}
+
+
+dt{
+    visibility: hidden;
+}
