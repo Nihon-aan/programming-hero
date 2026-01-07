@@ -104,6 +104,31 @@ nav div ul li a{
     cursor:pointer;
 }
 
+.btn2:hover{
+  
+    color:#FFF8F3;
+    background-color: #FD6E0A;
+}
+
+.btn:hover{
+    padding:17.28px 34px;
+  
+    color:#FD6E0A;
+    background-color:#FFF8F3;
+    border:1px solid #FD6E0A;
+    
+}
+
+.btn3:hover{
+    padding:17.28px 34px;
+   
+    color:#FD6E0A;
+    background-color:#FFF8F3;
+    border:1px solid #FD6E0A;
+    
+}
+
+
 .hero-container div .hero-image{
     max-width:584px;
     vertical-align:middle;
