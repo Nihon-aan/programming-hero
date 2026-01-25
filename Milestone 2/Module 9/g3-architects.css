@@ -9,11 +9,18 @@ header{
 }
 
 
+
+
+@media screen and (max-width:1439px) {
+    nav{
+     padding:5px;
+    }
+}
+
+
 /* nav section */
 .nav-menu{
      list-style:none;
-    
- 
      display:flex;
      justify-content: space-between;
     
@@ -36,6 +43,7 @@ header{
 nav{
      display:flex;
      max-width:1440px;
+     margin: 0 auto;
      justify-content: space-between;
      align-items: center;
      padding-top: 50px;
@@ -50,11 +58,17 @@ nav{
 
 /* hero section */
 
+.hero-content{
+     max-width:870px;
+     margin: 0 auto;
+}
+
+
 
 .hero-header{
      font-size:4rem;
      color:#131313;
-    
+   
      margin-bottom:24px;
      margin-top:100px;
 }
@@ -92,3 +106,22 @@ nav{
 }
 
 
+
+@media screen and (max-width:576px) {
+
+     nav{
+          flex-direction:column;
+          text-align: center;
+     }
+
+     .nav-menu-parent{
+          width:100%;
+     }
+
+    .nav-menu{
+     display:grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding-top:30px;
+     row-gap: 30px;
+    }
+}
