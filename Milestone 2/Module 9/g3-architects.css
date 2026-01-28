@@ -129,7 +129,7 @@ nav{
 
 
 .sec-2-div-2{
-     max-width:535px;
+     max-width:530px;
 }
 
 
@@ -156,6 +156,91 @@ nav{
 }
 
 
+
+.s-3-h{
+      font-size:2.8125rem;
+      padding:21px;
+      border-left:5px solid #FF900E;
+}
+
+
+.sec-3-p{
+     color:#131313;
+     line-height: 26px;
+     font-size:1rem;
+     margin-top:24px;
+     margin-bottom:30px;
+}
+
+
+.sec-3-card-h{
+
+     font-weight:600;
+     font-size:1.25rem;
+     color:#131313;
+     
+}
+
+.sec-3-card-p{
+     line-height: 26px;
+     font-size:1rem;
+     color:#727272;
+     margin-bottom:30px;
+
+     
+}
+
+.sec-3-card{
+     border-radius:8px;
+     width:100%;
+     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+     margin-bottom:20px;
+     padding:30px 42px 30px 30px;
+}
+
+
+.sec-3-div-1{
+     max-width:586px;
+}
+
+
+
+.special-style{
+     font-weight:bold;
+     font-size:4.0625em;
+     line-height:70px;
+}
+
+
+.special-btn{
+    
+     font-weight:500;
+     font-size:1.5625em;
+     line-height:40px;
+     padding: 46px 42px;
+}
+
+.section-3{
+     display:flex;
+     gap:54px;
+     max-width:1440px;
+     margin:130px auto;
+
+}
+
+
+.architect-img{
+     max-width:708px;
+     display: flex;
+     justify-content: right;
+     align-items: top;
+     
+}
+
+.architect-img img{
+     width:100%;
+
+}
 
 
 
